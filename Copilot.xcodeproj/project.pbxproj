@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2054FC2C22A9932600188575 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2054FC2B22A9932600188575 /* AppDelegate.swift */; };
+		2054FC2E22A9932600188575 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2054FC2D22A9932600188575 /* ViewController.swift */; };
+		2054FC3022A9932800188575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2054FC2F22A9932800188575 /* Assets.xcassets */; };
+		2054FC3322A9932800188575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2054FC3122A9932800188575 /* Main.storyboard */; };
+		2054FC3F22A9932800188575 /* CopilotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2054FC3E22A9932800188575 /* CopilotTests.swift */; };
+		2054FC4A22A9932800188575 /* CopilotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2054FC4922A9932800188575 /* CopilotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2054FC3B22A9932800188575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2054FC2022A9932600188575 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2054FC2722A9932600188575;
+			remoteInfo = Copilot;
+		};
+		2054FC4622A9932800188575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2054FC2022A9932600188575 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2054FC2722A9932600188575;
+			remoteInfo = Copilot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2054FC2822A9932600188575 /* Copilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Copilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2054FC2B22A9932600188575 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2054FC2D22A9932600188575 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2054FC2F22A9932800188575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2054FC3222A9932800188575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2054FC3422A9932800188575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2054FC3522A9932800188575 /* Copilot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Copilot.entitlements; sourceTree = "<group>"; };
+		2054FC3A22A9932800188575 /* CopilotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopilotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2054FC3E22A9932800188575 /* CopilotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopilotTests.swift; sourceTree = "<group>"; };
+		2054FC4022A9932800188575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2054FC4522A9932800188575 /* CopilotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopilotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2054FC4922A9932800188575 /* CopilotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopilotUITests.swift; sourceTree = "<group>"; };
+		2054FC4B22A9932800188575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2054FC2522A9932600188575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2054FC3722A9932800188575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2054FC4222A9932800188575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2054FC1F22A9932600188575 = {
+			isa = PBXGroup;
+			children = (
+				2054FC2A22A9932600188575 /* Copilot */,
+				2054FC3D22A9932800188575 /* CopilotTests */,
+				2054FC4822A9932800188575 /* CopilotUITests */,
+				2054FC2922A9932600188575 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2054FC2922A9932600188575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2054FC2822A9932600188575 /* Copilot.app */,
+				2054FC3A22A9932800188575 /* CopilotTests.xctest */,
+				2054FC4522A9932800188575 /* CopilotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2054FC2A22A9932600188575 /* Copilot */ = {
+			isa = PBXGroup;
+			children = (
+				2054FC2B22A9932600188575 /* AppDelegate.swift */,
+				2054FC2D22A9932600188575 /* ViewController.swift */,
+				2054FC2F22A9932800188575 /* Assets.xcassets */,
+				2054FC3122A9932800188575 /* Main.storyboard */,
+				2054FC3422A9932800188575 /* Info.plist */,
+				2054FC3522A9932800188575 /* Copilot.entitlements */,
+			);
+			path = Copilot;
+			sourceTree = "<group>";
+		};
+		2054FC3D22A9932800188575 /* CopilotTests */ = {
+			isa = PBXGroup;
+			children = (
+				2054FC3E22A9932800188575 /* CopilotTests.swift */,
+				2054FC4022A9932800188575 /* Info.plist */,
+			);
+			path = CopilotTests;
+			sourceTree = "<group>";
+		};
+		2054FC4822A9932800188575 /* CopilotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2054FC4922A9932800188575 /* CopilotUITests.swift */,
+				2054FC4B22A9932800188575 /* Info.plist */,
+			);
+			path = CopilotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2054FC2722A9932600188575 /* Copilot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2054FC4E22A9932800188575 /* Build configuration list for PBXNativeTarget "Copilot" */;
+			buildPhases = (
+				2054FC2422A9932600188575 /* Sources */,
+				2054FC2522A9932600188575 /* Frameworks */,
+				2054FC2622A9932600188575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Copilot;
+			productName = Copilot;
+			productReference = 2054FC2822A9932600188575 /* Copilot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2054FC3922A9932800188575 /* CopilotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2054FC5122A9932800188575 /* Build configuration list for PBXNativeTarget "CopilotTests" */;
+			buildPhases = (
+				2054FC3622A9932800188575 /* Sources */,
+				2054FC3722A9932800188575 /* Frameworks */,
+				2054FC3822A9932800188575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2054FC3C22A9932800188575 /* PBXTargetDependency */,
+			);
+			name = CopilotTests;
+			productName = CopilotTests;
+			productReference = 2054FC3A22A9932800188575 /* CopilotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2054FC4422A9932800188575 /* CopilotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2054FC5422A9932800188575 /* Build configuration list for PBXNativeTarget "CopilotUITests" */;
+			buildPhases = (
+				2054FC4122A9932800188575 /* Sources */,
+				2054FC4222A9932800188575 /* Frameworks */,
+				2054FC4322A9932800188575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2054FC4722A9932800188575 /* PBXTargetDependency */,
+			);
+			name = CopilotUITests;
+			productName = CopilotUITests;
+			productReference = 2054FC4522A9932800188575 /* CopilotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2054FC2022A9932600188575 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = V0LT;
+				TargetAttributes = {
+					2054FC2722A9932600188575 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2054FC3922A9932800188575 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2054FC2722A9932600188575;
+					};
+					2054FC4422A9932800188575 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2054FC2722A9932600188575;
+					};
+				};
+			};
+			buildConfigurationList = 2054FC2322A9932600188575 /* Build configuration list for PBXProject "Copilot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2054FC1F22A9932600188575;
+			productRefGroup = 2054FC2922A9932600188575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2054FC2722A9932600188575 /* Copilot */,
+				2054FC3922A9932800188575 /* CopilotTests */,
+				2054FC4422A9932800188575 /* CopilotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2054FC2622A9932600188575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2054FC3022A9932800188575 /* Assets.xcassets in Resources */,
+				2054FC3322A9932800188575 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2054FC3822A9932800188575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2054FC4322A9932800188575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2054FC2422A9932600188575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2054FC2E22A9932600188575 /* ViewController.swift in Sources */,
+				2054FC2C22A9932600188575 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2054FC3622A9932800188575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2054FC3F22A9932800188575 /* CopilotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2054FC4122A9932800188575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2054FC4A22A9932800188575 /* CopilotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2054FC3C22A9932800188575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2054FC2722A9932600188575 /* Copilot */;
+			targetProxy = 2054FC3B22A9932800188575 /* PBXContainerItemProxy */;
+		};
+		2054FC4722A9932800188575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2054FC2722A9932600188575 /* Copilot */;
+			targetProxy = 2054FC4622A9932800188575 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2054FC3122A9932800188575 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2054FC3222A9932800188575 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2054FC4C22A9932800188575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2054FC4D22A9932800188575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2054FC4F22A9932800188575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Copilot/Copilot.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = Copilot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.Copilot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2054FC5022A9932800188575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Copilot/Copilot.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = Copilot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.Copilot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2054FC5222A9932800188575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = CopilotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.CopilotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Copilot.app/Contents/MacOS/Copilot";
+			};
+			name = Debug;
+		};
+		2054FC5322A9932800188575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = CopilotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.CopilotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Copilot.app/Contents/MacOS/Copilot";
+			};
+			name = Release;
+		};
+		2054FC5522A9932800188575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = CopilotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.CopilotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Copilot;
+			};
+			name = Debug;
+		};
+		2054FC5622A9932800188575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = CopilotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.CopilotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Copilot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2054FC2322A9932600188575 /* Build configuration list for PBXProject "Copilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2054FC4C22A9932800188575 /* Debug */,
+				2054FC4D22A9932800188575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2054FC4E22A9932800188575 /* Build configuration list for PBXNativeTarget "Copilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2054FC4F22A9932800188575 /* Debug */,
+				2054FC5022A9932800188575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2054FC5122A9932800188575 /* Build configuration list for PBXNativeTarget "CopilotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2054FC5222A9932800188575 /* Debug */,
+				2054FC5322A9932800188575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2054FC5422A9932800188575 /* Build configuration list for PBXNativeTarget "CopilotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2054FC5522A9932800188575 /* Debug */,
+				2054FC5622A9932800188575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2054FC2022A9932600188575 /* Project object */;
+}
