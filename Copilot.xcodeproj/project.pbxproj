@@ -13,6 +13,7 @@
 		2054FC3322A9932800188575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2054FC3122A9932800188575 /* Main.storyboard */; };
 		2054FC3F22A9932800188575 /* CopilotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2054FC3E22A9932800188575 /* CopilotTests.swift */; };
 		2054FC4A22A9932800188575 /* CopilotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2054FC4922A9932800188575 /* CopilotUITests.swift */; };
+		2054FC5822A9A26600188575 /* PrefencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2054FC5722A9A26600188575 /* PrefencesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		2054FC4522A9932800188575 /* CopilotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopilotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2054FC4922A9932800188575 /* CopilotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopilotUITests.swift; sourceTree = "<group>"; };
 		2054FC4B22A9932800188575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2054FC5722A9A26600188575 /* PrefencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefencesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				2054FC2B22A9932600188575 /* AppDelegate.swift */,
 				2054FC2D22A9932600188575 /* ViewController.swift */,
+				2054FC5722A9A26600188575 /* PrefencesViewController.swift */,
 				2054FC2F22A9932800188575 /* Assets.xcassets */,
 				2054FC3122A9932800188575 /* Main.storyboard */,
 				2054FC3422A9932800188575 /* Info.plist */,
@@ -256,6 +259,7 @@
 			files = (
 				2054FC2E22A9932600188575 /* ViewController.swift in Sources */,
 				2054FC2C22A9932600188575 /* AppDelegate.swift in Sources */,
+				2054FC5822A9A26600188575 /* PrefencesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
